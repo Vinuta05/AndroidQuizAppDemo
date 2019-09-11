@@ -8,6 +8,9 @@
     <string name="txt_correct_answered">Correct Answered : </string>
     <string name="txt_wrong_answered">Wrong Answered : </string>
     <string name="dialog_txt_ok">OK</string>
+    <string name="dialog_txt_yes">Yes</string>
+    <string name="dialog_text_no">No</string>
+    <string name="txt_exit_app">"Are you sure you want to exit?"</string>
 
 
 </resources>
