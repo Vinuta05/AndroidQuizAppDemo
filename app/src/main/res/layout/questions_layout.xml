@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_id_for_result"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        tools:context=".view.activities.MainActivity">
+
+        <TextView
+            android:id="@+id/txt_numberofQuestions"
+            style="@style/textStyle"
+            android:layout_marginTop="40dp"
+            android:text="@string/txt_questions"
+            android:textColor="@android:color/holo_blue_dark" />
+
+
+        <TextView
+            android:id="@+id/txt_question"
+            style="@style/textStyle"
+            android:layout_below="@+id/txt_numberofQuestions"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/black" />
+
+
+        <RadioGroup
+            android:id="@+id/radio_grp"
+            style="@style/radioButtonStyle"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/radio_btn1"
+                style="@style/radioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/radio_btn2"
+                style="@style/radioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/radio_btn3"
+                style="@style/radioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/radio_btn4"
+                style="@style/radioButtonStyle" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radio_grp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:text="@string/btn_next"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

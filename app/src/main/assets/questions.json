@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "question":"How to pass the data between activities in Android?",
+      "option1": "Intent",
+      "option2": "Content provider",
+      "option3": "Broadcast Receiver",
+      "option4": "None of the above",
+      "correct": "Intent"
+    },
+    {
+      "question": "What is AndroidManifest.xml in Android?",
+      "option1": "It has information about layout in an application",
+      "option2": "It has the information about activities in an application",
+      "option3": "It has information about an application",
+      "option4": "None of the above",
+      "correct": "It has information about an application"
+    },
+    {
+      "question": "Android is developed by :",
+      "option1": "Apple",
+      "option2": "Microsoft",
+      "option3": "Google",
+      "option4": "Android Inc",
+      "correct": "Android Inc"
+
+    },
+    {
+      "question": "Android Web Browser is based on :",
+      "option1": "Chrome",
+      "option2": "Open-source Webkit",
+      "option3": "Mars",
+      "option4": "Safari",
+      "correct": "Open-source Webkit"
+    },
+    {
+      "question": "Android is based on which kernel :",
+      "option1": "Linux",
+      "option2": "Windows",
+      "option3": "MAC",
+      "option4": "RedHat",
+      "correct": "Linux"
+    },
+    {
+      "question": "In which directory folder XML layout files are stored",
+      "option1": "/assets",
+      "option2": "/src",
+      "option3": "/res/values",
+      "option4": "/res/layout",
+      "correct": "/res/layout"
+    },
+    {
+      "question": "View Pager is used for :",
+      "option1": "Swipping Activities",
+      "option2": "Swipping Fragments",
+      "option3": "Paging down List items",
+      "option4": "View pager is not supported by Android SDK",
+      "correct": "Swipping Fragments"
+    },
+    {
+      "question": "ADB stands for : ",
+      "option1": "Android Debug Bridge",
+      "option2": "Android Drive Bridge",
+      "option3": "Android Delete Bridge",
+      "option4": "Android Destroy Bridge",
+      "correct": "Android Debug Bridge"
+    },
+    {
+      "question": "A type of service provided by android that shows messages and alerts to user is",
+      "option1": "Content Providers",
+      "option2": "View System",
+      "option3": "Notification Manager",
+      "option4": "Activity Manager",
+      "correct": "Notification Manager"
+
+    },
+    {
+      "question": "One of application component, that manages application's background services is called",
+      "option1": "Activities",
+      "option2": "Broadcast Receivers",
+      "option3": "Content Providers",
+      "option4": "Services",
+      "correct": "Services"
+    },
+    {
+      "question": "Broadcast that includes information about battery state, level, etc. is",
+      "option1": "android.intent.action.BATTERY_CHANGED",
+      "option2": "android.intent.action.BATTERY_LOW",
+      "option3": "android.intent.action.BATTERY_OKAY",
+      "option4": "android.intent.action.CALL_BUTTON",
+      "correct": "android.intent.action.BATTERY_CHANGED"
+    }
+  ]
+}
